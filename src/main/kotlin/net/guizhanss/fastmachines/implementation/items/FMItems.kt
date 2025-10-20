@@ -9,8 +9,6 @@ import net.guizhanss.fastmachines.FastMachines
 import net.guizhanss.fastmachines.implementation.groups.FMItemGroups
 import net.guizhanss.fastmachines.implementation.items.machines.infinityexpansion.FastInfinityWorkbench
 import net.guizhanss.fastmachines.implementation.items.machines.infinityexpansion.FastMobDataInfuser
-import net.guizhanss.fastmachines.implementation.items.machines.infinityexpansion2.FastInfinityWorkbench2
-import net.guizhanss.fastmachines.implementation.items.machines.infinityexpansion2.FastMobDataInfuser2
 import net.guizhanss.fastmachines.implementation.items.machines.slimeframe.FastSlimeFrameFoundry
 import net.guizhanss.fastmachines.implementation.items.machines.slimefun.FastAncientAltar
 import net.guizhanss.fastmachines.implementation.items.machines.slimefun.FastArmorForge
@@ -379,32 +377,32 @@ object FMItems : ItemRegistry(FastMachines.instance, FastMachines.localization.i
     //</editor-fold>
 
     // <editor-fold desc="Machines - InfinityExpansion2" collapsed="true">
-    val FAST_INFINITY_WORKBENCH_2 by buildSlimefunItem<FastInfinityWorkbench2> {
-        material = Material.RESPAWN_ANCHOR.asMaterialType()
-        itemGroup = FMItemGroups.MACHINES
-        recipeType = RecipeType.ENHANCED_CRAFTING_TABLE
-        recipe = buildRecipe {
-            +"   "
-            +"   "
-            +"Omo"
-            'O' means SlimefunItems.OUTPUT_CHEST
-            'o' means if (FastMachines.configService.fmUseEnergy.value) FAST_CORE else null
-            'm' means "IE_INFINITY_WORKBENCH".getSfItem()?.item
-        }
-    }
+//    val FAST_INFINITY_WORKBENCH_2 by buildSlimefunItem<FastInfinityWorkbench2> {
+//        material = Material.RESPAWN_ANCHOR.asMaterialType()
+//        itemGroup = FMItemGroups.MACHINES
+//        recipeType = RecipeType.ENHANCED_CRAFTING_TABLE
+//        recipe = buildRecipe {
+//            +"   "
+//            +"   "
+//            +"Omo"
+//            'O' means SlimefunItems.OUTPUT_CHEST
+//            'o' means if (FastMachines.configService.fmUseEnergy.value) FAST_CORE else null
+//            'm' means "IE_INFINITY_WORKBENCH".getSfItem()?.item
+//        }
+//    }
 
-    val FAST_MOB_DATA_INFUSER_2 by buildSlimefunItem<FastMobDataInfuser2> {
-        material = Material.LODESTONE.asMaterialType()
-        itemGroup = FMItemGroups.MACHINES
-        recipeType = RecipeType.ENHANCED_CRAFTING_TABLE
-        recipe = buildRecipe {
-            +"   "
-            +"   "
-            +"Omo"
-            'O' means SlimefunItems.OUTPUT_CHEST
-            'o' means if (FastMachines.configService.fmUseEnergy.value) FAST_CORE else null
-            'm' means "IE_MOB_DATA_INFUSER".getSfItem()?.item
-        }
-    }
+//    val FAST_MOB_DATA_INFUSER_2 by buildSlimefunItem<FastMobDataInfuser2> {
+//        material = Material.LODESTONE.asMaterialType()
+//        itemGroup = FMItemGroups.MACHINES
+//        recipeType = RecipeType.ENHANCED_CRAFTING_TABLE
+//        recipe = buildRecipe {
+//            +"   "
+//            +"   "
+//            +"Omo"
+//            'O' means SlimefunItems.OUTPUT_CHEST
+//            'o' means if (FastMachines.configService.fmUseEnergy.value) FAST_CORE else null
+//            'm' means "IE_MOB_DATA_INFUSER".getSfItem()?.item
+//        }
+//    }
     //</editor-fold>
 }

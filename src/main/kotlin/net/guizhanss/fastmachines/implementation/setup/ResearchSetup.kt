@@ -54,8 +54,8 @@ object ResearchSetup {
             // slimeframe
             FMItems.FAST_SLIMEFRAME_FOUNDRY,
             // infinity expansion 2
-            FMItems.FAST_INFINITY_WORKBENCH_2,
-            FMItems.FAST_MOB_DATA_INFUSER_2,
+//            FMItems.FAST_INFINITY_WORKBENCH_2,
+//            FMItems.FAST_MOB_DATA_INFUSER_2,
         ).register()
     }
 
