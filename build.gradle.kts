@@ -19,15 +19,15 @@ repositories {
 dependencies {
     compileOnly(kotlin("stdlib")) // loaded through library loader
     compileOnly(kotlin("reflect")) // loaded through library loader
-    compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
-    compileOnly("com.github.SlimeFun-Lab:Slimefun4:3ea21da")
-    compileOnly("com.github.SlimeFun-Lab:SlimefunTranslation:b8d1d02d1b")
-    compileOnly("com.github.SlimeFun-Lab:SlimeHUD:dff2e363bd")
-    compileOnly("com.github.SlimeFun-Lab:InfinityExpansion:c9db035a0b")
+    compileOnly("io.papermc.paper:paper-api:1.21.10-R0.1-SNAPSHOT")
+    compileOnly("com.github.SlimeFun-Lab:Slimefun4:6d5694e")
+    compileOnly("com.github.SlimeFun-Lab:SlimefunTranslation:8007216d6c")
+    compileOnly("com.github.SlimeFun-Lab:SlimeHUD:97d3a09130")
+    compileOnly("com.github.SlimeFun-Lab:InfinityExpansion:78b140c13f")
     compileOnly("com.github.VoperAD:SlimeFrame:8af2379a01")
 //    compileOnly("net.guizhanss:InfinityExpansion2:8d3e6c40f6")
     implementation("org.bstats:bstats-bukkit:3.1.0")
-    implementation("com.github.SlimeFun-Lab:guizhanlib:ad571e34be")
+    implementation("com.github.SlimeFun-Lab:guizhanlib:94c4abd25b")
     implementation("com.github.SlimeFun-Lab:guizhanlib-kt:f5c4375dea")
 
     testImplementation(kotlin("test"))
