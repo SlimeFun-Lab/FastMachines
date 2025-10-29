@@ -51,6 +51,7 @@ object ResearchSetup {
             // infinity expansion
             FMItems.FAST_INFINITY_WORKBENCH,
             FMItems.FAST_MOB_DATA_INFUSER,
+            FMItems.FAST_NETWORK_QUANTUM_WORKBENCH,
             // slimeframe
             FMItems.FAST_SLIMEFRAME_FOUNDRY,
             // infinity expansion 2

@@ -24,8 +24,8 @@ dependencies {
     compileOnly("com.github.SlimeFun-Lab:SlimefunTranslation:8007216d6c")
     compileOnly("com.github.SlimeFun-Lab:SlimeHUD:97d3a09130")
     compileOnly("com.github.SlimeFun-Lab:InfinityExpansion:78b140c13f")
+    compileOnly("com.github.SlimeFun-Lab:Networks:aa3acab913")
     compileOnly("com.github.VoperAD:SlimeFrame:8af2379a01")
-//    compileOnly("net.guizhanss:InfinityExpansion2:8d3e6c40f6")
     implementation("org.bstats:bstats-bukkit:3.1.0")
     implementation("com.github.SlimeFun-Lab:guizhanlib:94c4abd25b")
     implementation("com.github.SlimeFun-Lab:guizhanlib-kt:f5c4375dea")
@@ -82,7 +82,7 @@ bukkit {
         "InfinityExpansion",
         "SlimeFrame",
         "SlimeHUD",
-        "InfinityExpansion2",
+        "Networks",
     )
     loadBefore = listOf(
         "SlimeCustomizer",

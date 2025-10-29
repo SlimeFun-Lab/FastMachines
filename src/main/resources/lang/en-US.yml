@@ -175,20 +175,15 @@ items:
     lore:
       - "&7More useful Mob Data Infuser."
       - "&7Craft without need to put items in order."
+  FAST_NETWORK_QUANTUM_WORKBENCH:
+    name: "&aFast Network Quantum Workbench"
+    lore:
+      - "&7More useful Network Quantum Workbench."
+      - "&7Craft without need to put items in order."
   FAST_SLIMEFRAME_FOUNDRY:
     name: "&aFast SlimeFrame Foundry"
     lore:
       - "&7More useful SlimeFrame Foundry."
-      - "&7Craft without need to put items in order."
-  FAST_INFINITY_WORKBENCH_2:
-    name: "&aFast Infinity Workbench"
-    lore:
-      - "&7More useful Infinity Workbench."
-      - "&7Craft without need to put items in order."
-  FAST_MOB_DATA_INFUSER_2:
-    name: "&aFast Mob Data Infuser"
-    lore:
-      - "&7More useful Mob Data Infuser."
       - "&7Craft without need to put items in order."
 
 lores:
